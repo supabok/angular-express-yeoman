@@ -1,0 +1,52 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'compass' ]
+2 info using npm@1.1.45
+3 info using node@v0.8.4
+4 verbose config file /Users/erickp/.npmrc
+5 verbose config file /usr/local/etc/npmrc
+6 verbose config file /usr/local/lib/node_modules/npm/npmrc
+7 verbose read json /Users/erickp/__Projects/angular_express_yeoman/package.json
+8 warn package.json application-name@0.0.1 No README.md file found!
+9 verbose read json /Users/erickp/__Projects/angular_express_yeoman/node_modules/express/package.json
+10 verbose read json /Users/erickp/__Projects/angular_express_yeoman/node_modules/jade/package.json
+11 verbose from cache /Users/erickp/__Projects/angular_express_yeoman/package.json
+12 verbose readDependencies using package.json deps
+13 verbose cache add [ 'compass', null ]
+14 silly cache add name=undefined spec="compass" args=["compass",null]
+15 verbose parsed url { pathname: 'compass', path: 'compass', href: 'compass' }
+16 silly lockFile 9d0f85fe-compass compass
+17 verbose lock compass /Users/erickp/.npm/9d0f85fe-compass.lock
+18 silly lockFile 9d0f85fe-compass compass
+19 verbose addNamed [ 'compass', '' ]
+20 verbose addNamed [ null, '' ]
+21 silly lockFile 1c2955e8-compass compass@
+22 verbose lock compass@ /Users/erickp/.npm/1c2955e8-compass.lock
+23 silly addNameRange { name: 'compass', range: '', hasData: false }
+24 verbose url raw compass
+25 verbose url resolving [ 'https://registry.npmjs.org/', './compass' ]
+26 verbose url resolved https://registry.npmjs.org/compass
+27 info retry registry request attempt 1 at 22:28:27
+28 http GET https://registry.npmjs.org/compass
+29 http 404 https://registry.npmjs.org/compass
+30 silly registry.get cb [ 404,
+30 silly registry.get   { server: 'CouchDB/1.2.0 (Erlang OTP/R15B)',
+30 silly registry.get     date: 'Wed, 09 Jan 2013 13:26:58 GMT',
+30 silly registry.get     'content-type': 'application/json',
+30 silly registry.get     'content-length': '52',
+30 silly registry.get     'cache-control': 'must-revalidate' } ]
+31 silly lockFile 1c2955e8-compass compass@
+32 error 404 'compass' is not in the npm registry.
+32 error 404 You should bug the author to publish it
+32 error 404
+32 error 404 Note that you can also install from a
+32 error 404 tarball, folder, or http url, or git url.
+33 error System Darwin 11.4.2
+34 error command "/usr/local/bin/node" "/usr/local/bin/npm" "install" "compass"
+35 error cwd /Users/erickp/__Projects/angular_express_yeoman
+36 error node -v v0.8.4
+37 error npm -v 1.1.45
+38 error code E404
+39 verbose exit [ 1, true ]
